@@ -1,0 +1,53 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": false,
+  "Connections": [
+    {
+      "Name": "Android Device",
+      "Description": null,
+      "Url": "http://localhost:4723/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": null,
+      "DeviceName": "Pixel 2",
+      "Capabilities": {}
+    },
+    {
+      "Name": "Oneplus 6T",
+      "Description": null,
+      "Url": "http://localhost:4723/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": "",
+      "DeviceName": "One plus",
+      "Capabilities": {}
+    }
+  ],
+  "Applications": [
+    {
+      "Name": "Test Application - \"The App\"",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "app": "https://uipathtestappsto.blob.core.windows.net/testapps/TheApp.apk"
+          },
+          "StartPage": ""
+        }
+      }
+    },
+    {
+      "Name": "CI - Application",
+      "Description": null,
+      "Type": "Web",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "browserName": "Chrome"
+          },
+          "StartPage": "https://careerinsight-stage.burning-glass.com/client/selector"
+        }
+      }
+    }
+  ],
+  "IdsMaxAllowedLength": 40
+}

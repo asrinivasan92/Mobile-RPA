@@ -1,0 +1,42 @@
+{
+  "name": "MobileTestingProject",
+  "description": "Mobile Testing Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Appium.WebDriver": "[4.1.1]",
+    "UiPath.MobileAutomation.Activities": "[20.4.0-beta.893003]",
+    "UiPath.System.Activities": "[20.4.0-beta.889657]",
+    "UiPath.Testing.Activities": "[1.0.0-beta.892890]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "df8769dc-1e98-4b4f-8035-b9c55e1514e7",
+        "fileName": "TestCase.xaml"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic"
+}
